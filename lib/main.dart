@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Budget',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primaryColor: Colors.lightBlue,
+        primaryColor: Colors.lightBlueAccent,
       ),
       home: HomeScreen(),
     );

@@ -106,20 +106,20 @@ class _HomeScreenState extends State<HomeScreen> {
             floating: true,
             expandedHeight: 100.0,
             leading: IconButton(
-              icon: Icon(Icons.settings),
+              icon: Icon(Icons.settings_applications),
               iconSize: 30.0,
               onPressed: () {},
             ),
             flexibleSpace: FlexibleSpaceBar(
               title: Padding(
-                padding: EdgeInsets.symmetric(vertical: 10.0,horizontal: 10.0),
-                child: Text('Budgetee',style: TextStyle(
-                  fontSize: 25.0,
-                  color: Colors.white,
-                  letterSpacing: 1.8,
-                  
-                
-                ),
+                padding: EdgeInsets.symmetric(vertical: 10.0, horizontal: 10.0),
+                child: Text(
+                  'Budgetee',
+                  style: TextStyle(
+                    fontSize: 25.0,
+                    color: Colors.white,
+                    letterSpacing: 1.8,
+                  ),
                 ),
               ),
             ),
